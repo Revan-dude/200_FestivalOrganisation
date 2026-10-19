@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<festival name="SoundWave 2026"
+          edition="12"
+          sponsor="SoundTech Austria">
+
+
+    <location>Graz</location>
+    <startDate>26.06.2026</startDate>
+    <endDate>28.06.2026</endDate>
+
+
+    <artists>
+
+
+        <artist id="A01" spotify="spotify:artist:A01">
+            <name>The Exceptions</name>
+            <country>Austria</country>
+            <genre>Rock</genre>
+            <founded>15.03.2018</founded>
+            <tags>rock austrian live</tags>
+            <website>https://exceptions.example.com</website>
+        </artist>
+
+
+        <artist id="A02" instagram="@neonpulse">
+            <name>Neon Pulse</name>
+            <country>Germany</country>
+            <genre>Electronic</genre>
+            <founded>04.09.2015</founded>
+            <tags>electronic dance techno</tags>
+        </artist>
+
+
+        <artist id="A03">
+            <name>Midnight Echo</name>
+            <country>United Kingdom</country>
+            <genre>Indie</genre>
+            <founded>21.06.2020</founded>
+            <tags>indie alternative british</tags>
+            <management>Echo Management Ltd.</management>
+        </artist>
+
+
+        <artist id="A04"
+                spotify="spotify:artist:A04"
+                instagram="@lunarise">
+            <name>Luna Rise</name>
+            <country>Austria</country>
+            <genre>Pop</genre>
+            <founded>11.01.2019</founded>
+            <tags>pop austrian vocal</tags>
+        </artist>
+
+
+        <artist id="A05">
+            <name>Iron Valley</name>
+            <country>Sweden</country>
+            <genre>Metal</genre>
+            <founded>08.11.2010</founded>
+            <tags>metal heavy swedish</tags>
+            <label>Northern Records</label>
+        </artist>
+
+
+        <artist id="A06">
+            <name>Blue Notes</name>
+            <country>United States</country>
+            <genre>Jazz</genre>
+            <founded>30.05.2008</founded>
+            <tags>jazz instrumental american</tags>
+        </artist>
+
+
+        <artist id="A07" instagram="@pixelbeats">
+            <name>Pixel Beats</name>
+            <country>Netherlands</country>
+            <genre>Electronic</genre>
+            <founded>14.02.2021</founded>
+            <tags>electronic visual dance</tags>
+            <visualArtist>Studio RGB</visualArtist>
+        </artist>
+
+
+        <artist id="A08">
+            <name>Alpine Sound</name>
+            <country>Austria</country>
+            <genre>Indie</genre>
+            <founded>01.08.2017</founded>
+            <tags>indie austrian acoustic</tags>
+        </artist>
+
+
+    </artists>
+
+
+    <stages>
+
+
+        <stage id="S01">
+            <name>Main pojos.Stage</name>
+            <capacity>5000</capacity>
+
+
+            <performances>
+
+
+                <performance id="P01">
+                    <artist>A01</artist>
+                    <start>26.06.2026 18:00</start>
+                    <duration>75</duration>
+                    <expectedVisitors>4200</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P02">
+                    <artist>A04</artist>
+                    <start>26.06.2026 20:00</start>
+                    <duration>90</duration>
+                    <expectedVisitors>4800</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P03">
+                    <artist>A05</artist>
+                    <start>26.06.2026 22:30</start>
+                    <duration>105</duration>
+                    <expectedVisitors>4500</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P04">
+                    <artist>A03</artist>
+                    <start>27.06.2026 19:00</start>
+                    <duration>80</duration>
+                    <expectedVisitors>3900</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P05">
+                    <artist>A01</artist>
+                    <start>27.06.2026 21:00</start>
+                    <duration>90</duration>
+                    <expectedVisitors>4700</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P06">
+                    <artist>A06</artist>
+                    <start>28.06.2026 18:30</start>
+                    <duration>70</duration>
+                    <expectedVisitors>3100</expectedVisitors>
+                    <status>Planned</status>
+                </performance>
+
+
+            </performances>
+        </stage>
+
+
+        <stage id="S02">
+            <name>Electronic pojos.Stage</name>
+            <capacity>2500</capacity>
+
+
+            <performances>
+
+
+                <performance id="P07">
+                    <artist>A02</artist>
+                    <start>26.06.2026 19:30</start>
+                    <duration>90</duration>
+                    <expectedVisitors>2100</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P08">
+                    <artist>A07</artist>
+                    <start>26.06.2026 22:00</start>
+                    <duration>120</duration>
+                    <expectedVisitors>2450</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P09">
+                    <artist>A02</artist>
+                    <start>27.06.2026 20:00</start>
+                    <duration>100</duration>
+                    <expectedVisitors>2300</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P10">
+                    <artist>A07</artist>
+                    <start>27.06.2026 23:00</start>
+                    <duration>110</duration>
+                    <expectedVisitors>2200</expectedVisitors>
+                    <status>Cancelled</status>
+                </performance>
+
+
+                <performance id="P11">
+                    <artist>A04</artist>
+                    <start>
+
+                    </start>
+                    <duration>90</duration>
+                    <expectedVisitors>2400</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+            </performances>
+        </stage>
+
+
+        <stage id="S03">
+            <name>River pojos.Stage</name>
+            <capacity>1200</capacity>
+
+
+            <performances>
+
+
+                <performance id="P12">
+                    <artist>A06</artist>
+                    <start>26.06.2026 17:00</start>
+                    <duration>60</duration>
+                    <expectedVisitors>900</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P13">
+                    <artist>A08</artist>
+                    <start>26.06.2026 19:00</start>
+                    <duration>75</duration>
+                    <expectedVisitors>1050</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P14">
+                    <artist>A03</artist>
+                    <start>27.06.2026 17:30</start>
+                    <duration>60</duration>
+                    <expectedVisitors>1100</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P15">
+                    <artist>A08</artist>
+                    <start>27.06.2026 20:30</start>
+                    <duration>90</duration>
+                    <expectedVisitors>1150</expectedVisitors>
+                    <status>Planned</status>
+                </performance>
+
+
+                <performance id="P16">
+                    <artist>A06</artist>
+                    <start>28.06.2026 16:00</start>
+                    <duration>65</duration>
+                    <expectedVisitors>850</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+                <performance id="P17">
+                    <artist>A03</artist>
+                    <start>28.06.2026 18:00</start>
+                    <duration>75</duration>
+                    <expectedVisitors>1000</expectedVisitors>
+                    <status>Confirmed</status>
+                </performance>
+
+
+            </performances>
+        </stage>
+
+
+    </stages>
+
+
+</festival>
